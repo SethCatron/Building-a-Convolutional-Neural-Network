@@ -1,2 +1,2 @@
 # Building-a-Convolutional-Neural-Network-
-Building a Convolutional Neural Network for Letter Recognition on a dataset
+The project involves creating a dataset class to load the dataset files (hw3-letters-test-images-idx3-ubyte, hw3-letters-test-labels-idx1-ubyte, hw3-letters-train-images-idx3-ubyte, hw3-letters-train-labels-idx1-ubyte) into Python cells on Google colab. The label and image files have a specific format and are read using a custom load method. A child class for torch.utils.data.Dataset is utilized. Images are plotted using matplotlib.pyplot.imshow. A convolutional neural network (CNN) is trained to recognize the 26 English letters, and its accuracy is at least 90% on the validation set. Finally, a confusion matrix of the test set is output. 
